@@ -6,7 +6,7 @@
 %define	pdir	Test
 %define	pnam	Perl-Critic
 Summary:	Test::Perl::Critic - Use Perl::Critic in test programs
-Summary(pl):	Test::Perl::Critic - u¿ycie Perl::Critic w programach testowych
+Summary(pl.UTF-8):   Test::Perl::Critic - uÅ¼ycie Perl::Critic w programach testowych
 Name:		perl-Test-Perl-Critic
 Version:	0.08
 Release:	1
@@ -31,12 +31,12 @@ framework. This makes it easy to integrate coding-standards
 enforcement into the build process. For ultimate convenience (at the
 expense of some flexibility), see the criticism pragma.
 
-%description -l pl
-Test::Perl::Critic obudowuje silnik Perl::Critic w wygodn± procedurê
-pasuj±c± do programów testowych pisanych z u¿yciem szkieletu
-Test::More. U³atwia to integracjê wymuszania standardów kodowania w
-proces budowania. Dla ostatecznej wygody (kosztem czê¶ci
-elastyczno¶ci) u¿yæ pragma criticism.
+%description -l pl.UTF-8
+Test::Perl::Critic obudowuje silnik Perl::Critic w wygodnÄ… procedurÄ™
+pasujÄ…cÄ… do programÃ³w testowych pisanych z uÅ¼yciem szkieletu
+Test::More. UÅ‚atwia to integracjÄ™ wymuszania standardÃ³w kodowania w
+proces budowania. Dla ostatecznej wygody (kosztem czÄ™Å›ci
+elastycznoÅ›ci) uÅ¼yÄ‡ pragma criticism.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
