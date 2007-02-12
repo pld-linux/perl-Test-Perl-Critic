@@ -6,7 +6,7 @@
 %define	pdir	Test
 %define	pnam	Perl-Critic
 Summary:	Test::Perl::Critic - Use Perl::Critic in test programs
-Summary(pl.UTF-8):   Test::Perl::Critic - użycie Perl::Critic w programach testowych
+Summary(pl.UTF-8):	Test::Perl::Critic - użycie Perl::Critic w programach testowych
 Name:		perl-Test-Perl-Critic
 Version:	0.08
 Release:	1
