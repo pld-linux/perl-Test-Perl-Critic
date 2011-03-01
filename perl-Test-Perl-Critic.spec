@@ -9,7 +9,7 @@ Summary:	Test::Perl::Critic - Use Perl::Critic in test programs
 Summary(pl.UTF-8):	Test::Perl::Critic - użycie Perl::Critic w programach testowych
 Name:		perl-Test-Perl-Critic
 Version:	1.02
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -19,8 +19,9 @@ BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Perl-Critic >= 0.21
+BuildRequires:	perl-Perl-Critic >= 1.105
 %endif
+Requires:	perl-dirs >= 4-4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -60,6 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%dir %{perl_vendorlib}/Test/Perl
 %{perl_vendorlib}/Test/Perl/Critic.pm
 %{_mandir}/man3/Test::Perl::Critic.3*
