@@ -8,7 +8,7 @@ Summary:	Test::Perl::Critic - Use Perl::Critic in test programs
 Summary(pl.UTF-8):	Test::Perl::Critic - użycie Perl::Critic w programach testowych
 Name:		perl-Test-Perl-Critic
 Version:	1.03
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
